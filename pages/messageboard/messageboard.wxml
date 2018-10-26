@@ -1,0 +1,17 @@
+<!--pages/messageboard/messageboard.wxml-->
+<view class="msg-box">
+    <!-- 留言 -->
+    <view class="send-box">
+        <input type="text" placeholder='请留言……' value="{{inputVal}}" class="ipt" placeholder-class='placeholder-ipt' bindinput="changeInputVal"></input>
+        <button size="mini" type="primary" bindtap="addMsg">添加</button>
+    </view>
+
+    <!-- 留言列表 -->
+    <view class="list-view">
+        <text class="msg-info" wx:if="{{msgData.length == 0 }}">暂无留言……☺</text>
+        <view class="list-view-item" wx:for="{{msgData}}" wx:key="{{index}}">
+            <text class="txt1">{{item.msg}}</text>
+            <icon data-index="{{index}}" class="close-btn" type="cancel" bindtap="delMsg"></icon>
+        </view>
+    </view>
+</view>

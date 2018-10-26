@@ -1,0 +1,45 @@
+/* pages/messageboard/messageboard.wxss */
+.msg-box {
+  padding: 20rpx;
+}
+
+.send-box {
+  display: flex;
+}
+
+.ipt {
+  border: 1rpx solid #ccc;
+  padding: 5rpx;
+  border-radius: 5rpx;
+}
+
+.placeholder-ipt {
+  color: #fff660;
+}
+
+.msg-info {
+  display: block;
+  margin-top: 10rpx;
+  color: #339999;
+}
+
+.list-view {
+  margin-top: 20rpx;
+}
+
+.list-view-item {
+  border-bottom: 1rpx dashed #ccc;
+  height: 80rpx;
+  line-height: 80rpx;
+  overflow: hidden;
+}
+
+.txt1 {
+  float: left;
+}
+
+.close-btn {
+  float: right;
+  margin-top: 20rpx;
+}
+

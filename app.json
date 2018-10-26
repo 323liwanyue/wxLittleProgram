@@ -1,12 +1,30 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/join/join",
+    "pages/home/home",
+    "pages/messageboard/messageboard",
+    "pages/storage/storage",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#2e5e86",
+    "navigationBarTitleText": "信贷DEMO",
     "navigationBarTextStyle":"black"
+  },"tabBar": {
+    "selectedColor": "#2e5e86",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/myself.png",
+      "selectedIconPath": "images/myself.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "车辆",
+      "iconPath": "images/history-record.png",
+      "selectedIconPath": "images/history-record.png"
+    }]
   }
 }
