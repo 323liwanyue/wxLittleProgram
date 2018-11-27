@@ -8,3 +8,38 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+page,
+.page {
+  width: 100%;
+  height: 100%;
+}
+
+/* 头部 */ 
+ .title-wrap { 
+   height: 110rpx; 
+   padding: 0 20rpx 30rpx; 
+   display: flex; 
+   align-items: flex-end; 
+   justify-content: center;
+   background: #fff; 
+ } 
+
+
+ .title-txt { 
+   font-size: 36rpx; 
+   letter-spacing: 4rpx; 
+ } 
+
+ .title-wrap text { 
+   width: calc(100% - 20rpx); 
+   text-align: center; 
+   overflow: hidden; 
+   white-space: nowrap; 
+   text-overflow: ellipsis; 
+ } 
+
+ .arrow-left {
+  width: 20rpx;
+  height: 40rpx;
+}

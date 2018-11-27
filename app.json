@@ -5,13 +5,25 @@
     "pages/home/home",
     "pages/messageboard/messageboard",
     "pages/storage/storage",
+    "pages/interface/interface",
+    "pages/list/list",
+    "pages/add/add",
+    "pages/test/test",
+    "pages/news/news",
+    "pages/news-detail/news-detail",
+    "pages/search/search",
+    "pages/slide/slide",
+    "pages/headerCenter/headerCenter",
+    "pages/doubleClick/doubleClick",
+    "pages/canvas/canvas",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#2e5e86",
     "navigationBarTitleText": "信贷DEMO",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "navigationStyle": "custom"
   },"tabBar": {
     "selectedColor": "#2e5e86",
     "list": [{

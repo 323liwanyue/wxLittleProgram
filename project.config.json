@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -12,7 +12,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.3.0",
-	"appid": "wxc18627906d61b062",
+	"appid": "wxb279a62d5c89af58",
 	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8Fdemo",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 15,
 			"list": [
 				{
 					"id": 0,
@@ -65,7 +65,73 @@
 				{
 					"id": -1,
 					"name": "storage",
-					"pathName": "pages/storage/storage"
+					"pathName": "pages/storage/storage",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "add",
+					"pathName": "pages/add/add",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "interface",
+					"pathName": "pages/interface/interface",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "list",
+					"pathName": "pages/list/list",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "test",
+					"pathName": "pages/test/test",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "news",
+					"pathName": "pages/news/news",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "news-detail",
+					"pathName": "pages/news-detail/news-detail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "search",
+					"pathName": "pages/search/search",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "slide",
+					"pathName": "pages/slide/slide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "headerCenter",
+					"pathName": "pages/headerCenter/headerCenter",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "doubleClick",
+					"pathName": "pages/doubleClick/doubleClick",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "canvas",
+					"pathName": "pages/canvas/canvas"
 				}
 			]
 		}
